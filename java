@@ -1,28 +1,29 @@
 import java.util.Scanner;
-class studentdetails
-  {
-    public static void main (strng []args)
+public class studentdetails
+{
+    public static void main(String[]args)
     {
-      string a,b,d,e;
-      int c;
-        
-      System.out.prntln("Enter your name ");
-      a=obj.nextline();
-
-      System.out.println("Enter your course");
-      b=obj.nextline();
-
-      System.out.prntln("Enter your roll no.");
-      c=obj.nextInt();
-      obj.nextline();
-
-      System.out.println("Enter your subject ");
-      d=obj.nextline();
-
-      System.out.print("Name"+a);
-      System.out.print("Course"+b);
-      System.out.print("Roll No."+c);
-      System.out.print("Subject"+d);
+        Scanner Obj = new Scanner (System.in);
+        String a,c,d;
+        int b;
       
+        System.out.print("enter your name:-");
+        a=Obj.nextLine();
+      
+        System.out.print("enter your roll number:-");
+        b=Obj.nextInt();
+        Obj.nextLine();
+      
+        System.out.print("enter your course:-");
+        c=Obj.nextLine();
+      
+        System.out.print("enter your subject:-");
+        d=Obj.nextLine ();
+      
+        System.out.print("name:-"+a);
+        System.out.print(" roll number:-"+b);
+        System.out.print(" course:-"+c);
+        System.out.print(" subject:-"+d);
     }
-  }
+    
+}
