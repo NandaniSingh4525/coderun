@@ -25,3 +25,4 @@ class studentdetails
       System.out.print("Subject"+d);
       
     }
+  }
